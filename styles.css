@@ -1,0 +1,53 @@
+body {
+    font-family: 'Times New Roman', Georgia, serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h5, h5{
+    font-family: 'Playfair Display';
+    letter-spacing: 5px;
+}
+
+.top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.bar {
+    background-color: rgb(85, 164, 198);
+    padding: 20px;
+    letter-spacing: 4px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.55);
+    width: 100%;
+}
+
+.nav {
+    float: right;
+}
+
+.link-nav {
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.bottom-left {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 20px;
+    background-color: rgba(177, 141, 141, 0);
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.h-form {
+    font-size: 48px;
+}
