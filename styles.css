@@ -39,8 +39,8 @@ h1, h2, h3, h5, h5{
 }
 
 .bottom-left {
-    position: fixed;
-    bottom: 0;
+    position: absolute;
+    bottom: 20px;
     left: 0;
     padding: 20px;
     background-color: rgba(177, 141, 141, 0);
@@ -50,4 +50,8 @@ h1, h2, h3, h5, h5{
 
 .h-form {
     font-size: 48px;
+}
+
+.the-footer {
+    text-align: center;
 }
